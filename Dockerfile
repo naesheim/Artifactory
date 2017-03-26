@@ -2,7 +2,7 @@ FROM tomcat:8.0.41-jre8-alpine
 
 MAINTAINER Hans G, Praqma
 
-ENV ARTIFACTORY_VERSION 4.16.0
+ENV ARTIFACTORY_VERSION 5.1.4
 
 RUN apk add --update openssl && apk add --update unzip
 
